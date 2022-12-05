@@ -88,7 +88,7 @@ public class Main {
         }
         System.out.println("Задача2/2");
 
-        for(int i = 10; i > 0; i--) {
+        for (int i = 10; i > 0; i--) {
             System.out.println(i);
         }
 
@@ -98,7 +98,7 @@ public class Main {
         int estimatePerYear = 96000;
         int rozhdVGod = 204000;
         int year = 0;
-        while(year < 10) {
+        while (year < 10) {
             allPeople += rozhdVGod;
             allPeople -= estimatePerYear;
 
@@ -108,12 +108,15 @@ public class Main {
 
 
             //  Задача 4
-        } System.out.println("Задача4");
-        int InitialDepositAmount=15000;// Начальный вклад
-        int theRequiredAmount=12000000;// Нужная сумма
+        }
+        System.out.println("Задача4");
+        int InitialDepositAmount = 15000;// Начальный вклад
+        int theRequiredAmount = 12000000;// Нужная сумма
         double percent = 0.7;
-        double sumWithPercent=0;
-        while (sumWithPercent< 12000000); }
+        double sumWithPercent = 0;
+        while (sumWithPercent < 12000000) ;
+    }
+}
 
 }
         sumWithPercent = (InitialDepositAmount * percent) / 100;
