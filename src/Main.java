@@ -103,25 +103,39 @@ public class Main {
             allPeople -= estimatePerYear;
 
             allPeople += rozhdVGod - estimatePerYear;
-            year = year + 1;
-            System.out.println(" Количество лет " + year + " Людей " + allPeople);
+            //       year = year + 1;
+            //        System.out.println(" Количество лет " + year + " Людей " + allPeople);
 
 
-            //  Задача 4
-        }
-        System.out.println("Задача4");
-        int InitialDepositAmount = 15000;// Начальный вклад
-        int theRequiredAmount = 12000000;// Нужная сумма
-        double percent = 0.7;
-        double sumWithPercent = 0;
-        while (sumWithPercent < 12000000) ;
-    }
-}
+            //  Задача 3.1
 
-}
-        sumWithPercent = (InitialDepositAmount * percent) / 100;
-                System.out.println("Месяц"   +sumWithPercent+"рублей" );
+
+            //for (int i = 1896; i < 2122; i = i + 79) {
+
+
+               // System.out.println("каждый" + i);
+               // {
+                    //Задача 3.2
+               // }
+
+                for (int i = 2; i < 10; i++) {
+                    System.out.println("2 x " + i + " = " + 2 * i);
+
+
                 }
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
 
 
 
